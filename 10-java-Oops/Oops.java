@@ -69,19 +69,19 @@ class Newpen {
     private String color;
     private int tip;
 
-    String getColor() { // setters
+    String getColor() { // getters
         return this.color;
     }
 
-    int getTip() { // setters
+    int getTip() { // getters
         return this.tip;
     }
 
-    void setColor(String newColor) { // getters
+    void setColor(String newColor) { // setters
         color = newColor;
     }
 
-    void setTip(int newTip) { // getters
+    void setTip(int newTip) { // setters
         tip = newTip;
     }
 }
